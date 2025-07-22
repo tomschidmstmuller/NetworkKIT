@@ -2,6 +2,8 @@
 
 #### Detect bypasses
 
+- A more effective executable, such as a simple infinite loop binary, should be used instead of something like calc.exe, which may only remain active in the background for a short time. This will provide your script with sufficient time to detect the process in the task list and log it accordingly.
+
 ```
 @echo off
  
