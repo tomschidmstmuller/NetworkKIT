@@ -11,7 +11,7 @@ C:
 cd C:\TEMP\
  
 
-echo Creating a cursive list of all directories and sub-directories of the selected folder e.g. c:\
+echo Creating a recursive list of all directories and sub-directories of the selected folder e.g. c:\
 dir C:\ /s /b /o:n /a:d > C:\TEMP\dirs.txt
  
 
